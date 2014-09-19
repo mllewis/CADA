@@ -1,0 +1,63 @@
+\documentclass[man, noapacite]{apa2}
+
+\makeatletter
+\newenvironment{chapquote}[2][2em]
+  {\setlength{\@tempdima}{#1}%
+   \def\chapquote@author{#2}%
+   \parshape 1 \@tempdima \dimexpr\textwidth-2\@tempdima\relax%
+   \itshape}
+  {\par\normalfont\hfill--\ \chapquote@author\hspace*{\@tempdima}\par\bigskip}
+\makeatother
+
+\usepackage{pdfsync}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{topcapt}
+\usepackage{color}
+\usepackage{comment}
+\usepackage{booktabs}
+\usepackage{apacite2}
+\usepackage{fullpage,rotating}
+\usepackage{pslatex}
+\usepackage{amssymb}
+
+
+\title{The emergence of social structure from pragmatic pressures}
+\author{Molly L. Lewis}
+\affiliation{Department of Psychology, Stanford University\\ Conceptual Analysis of Dissertation Area\\ 6 October 2014}
+
+
+\shorttitle{The emergence of social structure from pragmatic pressures}
+\rightheader{The emergence of social structure from pragmatic pressures}
+\acknowledgements{Advisor: Michael C. Frank\\ \noindent Additional Readers: Ellen Markman and Noah Goodman}
+
+\abstract{}
+
+\begin{document}
+\maketitle
+
+%%%%%%%%% INTRO %%%%%%%%% 
+\begin{chapquote}{Aristotle, \textit{Nic. Ethics II 6}}
+\noindent  Virtue, then, is a state of character concerned with choice, lying in a mean, i.e. the mean relative to us, this being determined by a rational principle, and by that principle by which the man of practical wisdom would determine it. Now it is a mean between two vices, that which depends on excess and that which depends on defect; and again it is a mean because the vices respectively fall short of or exceed what is right in both passions and actions, while virtue both finds and chooses that which is intermediate. Hence in respect of its substance and the definition which states its essence virtue is a mean, with regard to what is best and right an extreme.
+\end{chapquote}
+\section{Introduction}
+
+%%%%%%%%% PART I %%%%%%%%% 
+
+\section{Part I: Social structure emerges from pragmatics}
+ it is a mean between
+\subsection{Social pressures}
+\subsection{Case studies}
+\subsubsection{Geographical organization of people}
+\subsubsection{Language}
+ 
+%%%%%%%%% PART II %%%%%%%%% 
+
+\section{Part II: The role of cognitive representations of structure }
+
+
+
+\bibliography{biblib}
+
+\end{document}
+
