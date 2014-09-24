@@ -11,7 +11,7 @@
 
 %\usepackage{pdfsync}
 \usepackage{amsmath}
-%\usepackage{graphicx}
+\usepackage{graphicx}
 %\usepackage{topcapt}
 %\usepackage{color}
 %\usepackage{comment}
@@ -20,6 +20,7 @@
 \usepackage{fullpage,rotating}
 \usepackage{pslatex}
 \usepackage{amssymb}
+\usepackage{multirow}
 
 
 \title{Linguistic structure emerges from cognitive mechanisms}
@@ -59,18 +60,47 @@ In Part II, I will consider the mechanism that might cause linguistic structure 
 %%%%%%%%% PART I %%%%%%%%% 
 \section{Part I: Linguistic structure reflects pragmatic equilibria}
 
-Where does linguistic structure come from? \citeA[2010]{christiansen2008} argue that  multiple cognitive constraints influence language evolution. They suggest four constraints: the representational format of thought, properties of the percepto-motor system, learning and processing constraints, and so-called `pragmatic' constraints. Pragmatic constraints are the result of reasoning about another speaker's intention in context. Their argument is that these  cognitive constraints  influence  language at the moment of use, but over time, these biases become instantiated in the structure of language. Although each of these constraints likely plays an important role in the evolution of language, the present paper focuses on the independent contribution of pragmatic constraints. The claim is that in-the-moment pragmatic constraints become fossilized in the structure of language. To develop this claim, we begin by modeling language use as a type of social coordination.
+Where does linguistic structure come from? \citeA[2010]{christiansen2008} argue that  multiple cognitive constraints influence language evolution. They suggest four constraints: the representational format of thought, properties of the percepto-motor system, learning and processing constraints, and so-called `pragmatic' constraints. Pragmatic constraints are the result of reasoning about another speaker's intention in context. Their argument is that these  cognitive constraints  influence  language at the moment of use, but over time, these biases become instantiated in the structure of language. Although each of these constraints likely plays an important role in the evolution of language, the present paper focuses on the independent contribution of pragmatic constraints. The claim is that in-the-moment pragmatic constraints become fossilized in the structure of language over time. To develop this claim, we begin by modeling language use as a type of social coordination.
 
 \subsection{Social interaction as a coordination problem}
 The idea that language is an instance of a much broader class of behavioral phenomenon --- social coordination --- has been noted by many theorist of language \cite{zipf1936, lewis1969convention, grice1975logic, clark1996using}. Each viewed language use as a case of multiple agents making interdependent  rational choices.\footnote{In outlining his seminal theory of pragmatics, Grice  writes: ``As one of my avowed aims is to see talking as a special case or variety of purposive, indeed rational, behaviour, it may be worth noting that the specific expectations of presumptions connected with at least some of the foregoing maxims have their analogues in the sphere of transactions that are not talk exchanges" \cite[pg. 47]{grice1975logic}.} Nonetheless, language use is a paradigmatic case of a coordination problem: it provides a tool that is universal in a community, easy to use, and capable of expressing complex ideas.
 
-\citeA{lewis1969convention} formalized the notion of language as a coordination problem by building off work by Schelling. Lewis defines a coordination problem as follows: ``Two or more agents must each choose one of several alternative actions. Often all the agents have the same set of alternative actions, but that is not necessary. The outcomes the agents want to produce or prevent are determined jointly by the actions of all the agents" (1969, pg. XX). The result is an equilibrium point no better....
+\citeA{lewis1969convention} formalized the notion of language as a coordination problem by adopting work from game theory. Lewis defines a coordination problem as follows: \begin{quote} Two or more agents must each choose one of several alternative actions. Often all the agents have the same set of alternative actions, but that is not necessary. The outcomes the agents want to produce or prevent are determined jointly by the actions of all the agents (1969, pg. 8).
+\end{quote} 
+The key feature of these problems is that some combinations of the agents' choices are better than others: there are a set of equilibria of joint choices in which no agent would have a larger payoff had the agent alone changed their choice.
 
-Zipf provided a parsimonious framework for thinking about the psychological forces that lead to the resolution of an equilibrium point in a coordination game. Zipf argued that dynamical systems were the result a single force.
+This broad framing can describe the dynamics of many social interactions. Take the above case of the barista and the customer, for example. We can model this interaction using a payoff matrix (Table 1). In the matrix, we represent the customer's payoff along the rows and the barista's payoff along the columns. There are two possible choices for  level of coffee in the cup---  full and  almost full --- and so each agent gets two rows or columns. 
+\begin{table}[t]
+\begin{center}
+\begin{tabular}{l p{3cm} l p{3cm} l p{3cm} l}
+ &  & \multicolumn{2}{c}{customer} \\ \cline{2-4} 
+\multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{full} & \multicolumn{1}{l|}{almost full} \\ \cline{2-4} 
+\multicolumn{1}{c|}{\multirow{2}{*}{barista}} & \multicolumn{1}{l|}{full} & \multicolumn{1}{l|}{0,0} & \multicolumn{1}{l|}{0,0} \\ \cline{2-4} 
+\multicolumn{1}{c|}{} & \multicolumn{1}{l|}{almost full} & \multicolumn{1}{l|}{0,0} & \multicolumn{1}{l|}{1,1} \\ \cline{2-4} 
+\end{tabular}
+\caption{}
+\end{center}
+\end{table}
+The agents relative payoffs are indicated in the cells, with the barista's on the left, and the customer's on the right. This happens to be a very simple equilibria --- there is one, and only one, possible set of actions in which is an equilibria. The customer prefers almost full and the barista fills the cup to almost full. The problem is that the barista does not know a priori where this equilibria lies, i.e. that the customer's pay off for almost full is 1, relative to 0 for full. To solve this coordination problem, the customer and barista make use of language.
 
-This broad framing describes many social interactions. Take the above example of the barista and the customer. We can model this interaction using a payoff matrix. 
+More complicated coordination problems arise when there are multiple possible equilibria. Consider a weekend trip in which food and alcohol must be brought. To distribute the burden, half of the vacationers will bring food and the other half alcohol. In this case, the pay off matrix might look something like Table 2. Neither groups --- Group A or B --- have a strong preference about which of the two commodities they bring. However, what is important is that one group brings food and the other alcohol --- no one will be happy on a weekend trip with only food or only alcohol. There are thus two equilibiria, one each at a  set of choices where the two groups bring different things. By chance, the vacationers are equally likely to end up in a non-equilibrium as they are an equilibria. To ensure they end up in an equilibrium, they must coordinate, via language or some other means.
 
-other examples? 
+\begin{table}[t]
+\begin{center}
+\begin{tabular}{l p{3cm} l p{3cm} l p{3cm} l}
+ &  & \multicolumn{2}{c}{Group A} \\ \cline{2-4} 
+\multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{food} & \multicolumn{1}{l|}{alcohol} \\ \cline{2-4} 
+\multicolumn{1}{c|}{\multirow{2}{*}{Group B}} & \multicolumn{1}{l|}{food} & \multicolumn{1}{l|}{0,0} & \multicolumn{1}{l|}{1,1} \\ \cline{2-4} 
+\multicolumn{1}{c|}{} & \multicolumn{1}{l|}{alcohol} & \multicolumn{1}{l|}{1,1} & \multicolumn{1}{l|}{0,0} \\ \cline{2-4} 
+\end{tabular}
+\caption{}
+\end{center}
+\end{table}
+
+What are the psychological forces that support these coordination games?
+Zipf suggested a parsimonious way to think about the psychological sources at play in this interaction. He suggested that all equilibria could provided a parsimonious framework for thinking about the psychological forces that lead to the resolution of an equilibrium point in a coordination game. Zipf argued that dynamical systems were the result a single force.
+
+other examples?  light example
 
 \subsection{Language use as a coordination problem}
 
@@ -80,7 +110,7 @@ As in the case of Zipf,
 
 Lay out Horn theory
 
-Bayesian stuff, wilkes and gibes
+Bayesian stuff, wilkes and gibes, scott
 
 \subsection{Pragmatic equilibria reflected in the structure of language}
 Consider four cases in which equililbtriam points predicted by Horn's theory of pragmatics are reflected in the structure of language: lexicon, semantics, semantics and words.
